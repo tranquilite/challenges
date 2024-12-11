@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+
+# aoc inputs
+adventofcode/*/inputs/*
+adventofcode/*/*/inputs/*
+
+*.log

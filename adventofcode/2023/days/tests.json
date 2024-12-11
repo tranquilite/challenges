@@ -1,0 +1,96 @@
+{
+    "01": {
+        "part2": [
+            {"data": ["two1nine", "eightwothree", "abcone2threexyz", "xtwone3four", "4nineeightseven2", "zoneight234", "7pqrstsixteen"], "expected": 281},
+            {"data": ["45five7fivegpzhcfbbfiveqhnhhzdqtnltgnkrxz\nfivefive6vcgxjjthreenine"],"expected": 104},
+            {"data": ["eighthree"],"expected": 83},
+            {"data": ["sevenine"], "expected": 79},
+            {"data": ["48three5fiveseven2hmb"],"expected": 42},
+            {"data": ["sixfive3nine57sevenvqbtsh3"],"expected": 63},
+            {"data": ["vdxpfourone1393mtvtlzmj"], "expected": 43}
+        ]
+    },
+    "02": {
+        "part1": [
+            {"data": ["Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green", "Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue", "Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red", "Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red", "Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green"], "expected": 8}
+        ],
+        "part2": [
+            {"data": ["Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green", "Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue", "Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red", "Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red", "Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green"], "expected": 2286}
+        ]
+    },
+    "03": {
+        "part1": [
+            {"data": ["467..114..", "...*......", "..35..633.", "......#...", "617*......", ".....+.58.", "..592.....", "......755.", "...$.*....", ".664.598.."], "expected": 4361}
+        ],
+        "part2": [
+            {"data": [], "expected": 0}
+        ]
+    },
+    "04": {
+        "part1": [
+            {"data": ["Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53"], "expected": 8},
+            {"data": ["Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53", "Card 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19", "Card 3:  1 21 53 59 44 | 69 82 63 72 16 21 14  1", "Card 4: 41 92 73 84 69 | 59 84 76 51 58  5 54 83", "Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36", "Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"], "expected": 13},
+            {"data": "aoc", "expected": 20107}
+        ],
+        "part2": [
+            {"data": ["Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53", "Card 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19", "Card 3:  1 21 53 59 44 | 69 82 63 72 16 21 14  1", "Card 4: 41 92 73 84 69 | 59 84 76 51 58  5 54 83", "Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36", "Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"], "expected": 30},
+            {"data": "aoc", "expected": 8172507}
+        ]
+    },
+    "05": {
+        "part1": [
+            {"data": ["seeds: 98", "", "seed-to-soil map:", "50 98 2", "52 50 48"], "expected": 50},
+            {"data": ["seeds: 79 14 55 13", "", "seed-to-soil map:", "50 98 2", "52 50 48", "", "soil-to-fertilizer map:", "0 15 37", "37 52 2", "39 0 15", "", "fertilizer-to-water map:", "49 53 8", "0 11 42", "42 0 7", "57 7 4", "", "water-to-light map:", "88 18 7", "18 25 70", "", "light-to-temperature map:", "45 77 23", "81 45 19", "68 64 13", "", "temperature-to-humidity map:", "0 69 1", "1 0 69", "", "humidity-to-location map:", "60 56 37", "56 93 4"], "expected": 35},
+            {"data": "aoc", "expected": 457535844}
+        ],
+        "part2": [
+            {"data": ["seeds: 79 14 55 13", "", "seed-to-soil map:", "50 98 2", "52 50 48", "", "soil-to-fertilizer map:", "0 15 37", "37 52 2", "39 0 15", "", "fertilizer-to-water map:", "49 53 8", "0 11 42", "42 0 7", "57 7 4", "", "water-to-light map:", "88 18 7", "18 25 70", "", "light-to-temperature map:", "45 77 23", "81 45 19", "68 64 13", "", "temperature-to-humidity map:", "0 69 1", "1 0 69", "", "humidity-to-location map:", "60 56 37", "56 93 4"], "expected": 46}
+        ]
+    },
+    "06": {
+        "part1": [
+            {"data": ["Time:      7  15   30", "Distance:  9  40  200"], "expected": 288},
+            {"data": "aoc", "expected": 500346}
+        ],
+        "part2": [
+            {"data": ["Time:      7  15   30", "Distance:  9  40  200"], "expected": 71503},
+            {"data": "aoc", "expected": 42515755}
+        ]
+    },
+    "07": {
+        "part1": [
+            {"data": ["32T3K 765", "T55J5 684", "KK677 28", "KTJJT 220", "QQQJA 483"], "expected": 6440},
+            {"data": "aoc", "expected": 42515755}
+        ],
+        "part2": [
+
+        ]
+    },
+    "08": {
+        "part1": [
+            {"data": [ "RL", "", "AAA = (BBB, CCC)", "BBB = (DDD, EEE)", "CCC = (ZZZ, GGG)", "DDD = (DDD, DDD)", "EEE = (EEE, EEE)", "GGG = (GGG, GGG)", "ZZZ = (ZZZ, ZZZ)" ], "expected": 2},
+            {"data": [ "LLR", "", "AAA = (BBB, BBB)", "BBB = (AAA, ZZZ)", "ZZZ = (ZZZ, ZZZ)" ], "expected": 6},
+            {"data": "aoc", "expected": 12599}
+        ],
+        "part2": [
+            {"data": [ "LR", "", "11A = (11B, XXX)", "11B = (XXX, 11Z)", "11Z = (11B, XXX)", "22A = (22B, XXX)", "22B = (22C, 22C)", "22C = (22Z, 22Z)", "22Z = (22B, 22B)", "XXX = (XXX, XXX)" ], "expected": 6},
+            {"data": "aoc", "expected": 8245452805243}
+        ]
+    },
+    "09": {
+        "part1": [
+            {"data": ["0 3 6 9 12 15", "1 3 6 10 15 21", "10 13 16 21 30 45"], "expected": 114},
+            {"data": "aoc", "expected": 1980437560}
+        ],
+        "part2": [
+            {"data": ["0 3 6 9 12 15", "1 3 6 10 15 21", "10 13 16 21 30 45"], "expected": 2},
+            {"data": "aoc", "expected": 977}
+        ]
+    },
+    "10": {
+        "part1": [
+            {"data": [".....", ".S-7.", ".|.|.", ".L-J.", "....."], "expected": 4},
+            {"data": ["..F7.", ".FJ|.", "SJ.L7", "|F--J", "LJ..."], "expected": 8}
+        ]
+    }
+}
